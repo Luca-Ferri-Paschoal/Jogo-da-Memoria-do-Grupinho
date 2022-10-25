@@ -1,0 +1,20 @@
+{
+  "name": "jogo_da_memoria",
+  "version": "1.0.0",
+  "description": "Treinando meu conhecimento em TypeScript com o projeto Jogo da Memória",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server --baseDir=app",
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Luca Ferri Paschoal",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.8.4"
+  }
+}
