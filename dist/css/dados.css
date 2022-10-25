@@ -1,0 +1,44 @@
+.dados {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 10px;
+    font-family: var(--font-relogio);
+}
+
+.dados__progresso {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+    .dados {
+        width: 90%;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+
+    .dados__progresso {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .dados {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .dados {
+        width: 220px;
+        height: 100vh;
+        flex-direction: column;
+        padding-right: 35px;
+    }
+
+    .dados__progresso {
+        flex-direction: column;
+    }
+}
